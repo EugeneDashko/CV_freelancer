@@ -1,15 +1,42 @@
 .services {
-
-}
-
-.services__items {
-
-}
-
-.services__item {
-    
+    margin: 90px 0 60px 0;
 }
 
 .services__items {
     display: flex;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    
 }
+
+
+.services__item {
+    max-width: 370px;
+    padding-bottom: 30px;
+}
+
+.services__item-img {
+    margin-bottom: 30px;
+    max-width: 100%;
+}
+
+.services__description {
+
+}
+.services__decription-title {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.services__decription-subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    color: #000000;
+}
+
+

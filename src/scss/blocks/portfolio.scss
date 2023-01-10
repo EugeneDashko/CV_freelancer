@@ -1,0 +1,47 @@
+.portfolio {
+    padding: 90px 0;
+    background-color: #F1F1F1;
+}
+
+.portfolio__title {
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 51px;
+    text-transform: capitalize;
+    color: #070707;
+}
+
+.portfolio__project {
+    text-align: center;
+    margin-bottom: 90px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+}
+
+.project__img {
+    margin-bottom: 40px;
+    max-width: 100%;
+
+}
+
+.project__title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-decoration-line: underline;
+ 
+}
+
+.project__title-link {
+    color: #070707;
+    text-decoration: none;
+}
+
+
+
