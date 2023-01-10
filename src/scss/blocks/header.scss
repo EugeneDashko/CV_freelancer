@@ -1,11 +1,83 @@
 .header {
     padding-top: 46px;
     background-color: #F1F1F1;
-    // position: absolute;
-    // top: 0;
-    // left: 0;
-    // width: 100%;
 }
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; //https://webref.ru/css/align-items
+}
+
+.nav__list {
+    display: flex;
+    column-gap: 50px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+.nav__link {
+    text-decoration: none;
+    color: #000;
+    font-style: normal;
+    line-height: 21px;
+   
+}
+
+.nav__link.active {
+    color: #606060;
+}
+
+.header__intro {
+    display: flex;
+    column-gap: 15px; // при уменьшениии чтобы не соприкасался
+    padding-top: 76px;
+    justify-content: space-between;
+
+}
+
+.header__article {
+    max-width: 500px;
+}
+
+.header__title {
+    padding-top: 124px;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 66px;
+    color: #000000;
+}
+
+.header__subtitle {
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+}
+
+.header__img {
+    max-width: 494px;
+    max-height: 613px;
+}
+
+
+
+
+
+
+
+
+
+//желтый кружок
+// .logo::after { 
+//     content:" ";
+//     display: block;
+//     width: 8px;
+//     height: 8px;
+//     border-radius: 50%;
+//     background-color: #FDA300;
+// }
 
 
 // .header__logo img {
