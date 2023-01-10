@@ -12,14 +12,8 @@
 // @import "mixins";
 
 @import "blocks/header";
-// @import "blocks/intro";
-// @import "blocks/contacts";
-// @import "blocks/sectionServ";
-// @import "blocks/importantSrv";
-// @import "blocks/fast&easy";
-// @import "blocks/contactus";
-// @import "blocks/footer";
-// @import "mediaQueries";
+@import "blocks/services";
+
 
 body {
     font-family: 'Poppins', sans-serif; // используем подключенный шрифт
