@@ -11,11 +11,13 @@
 // @import "variables";
 // @import "mixins";
 
+
 @import "blocks/header";
 @import "blocks/services";
 @import "blocks/portfolio";
 @import "blocks/footer";
 
+@import "mediaQueries";
 
 body {
     font-family: 'Poppins', sans-serif; // используем подключенный шрифт
