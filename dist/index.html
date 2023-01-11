@@ -7,6 +7,7 @@
   <title>CV_Kelvin</title>
   <meta name="description" content=""/>
   <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -41,14 +42,20 @@
             </nav>
         </div>
         <div class="header__intro">
-            <div class="header__article">
-                <h1 class="header__title">Kelvin Kramer <br> Designer & Developer</h1>
+            <div  data-aos="fade-up-right" class="header__article">
+                <h1 class="header__title">Kelvin Kramer <br> <span>Designer & Developer</span></h1>
                 <p class="header__subtitle">
                     I'm a portrait, fashion and lifestyle photographer living In New York City. During my thirteen year tenure here.
                 </p>
             </div>
             <div class="header__banner">
-                <img src="img/hero.png" class="header__img" alt="">
+<!--START для загрузки разных изображение при адаптиве-->
+                <picture>
+                    <source media="(max-width: 799px)" srcset="img/hero-mobile.png">
+                    <img data-aos="fade-down" src="img/hero.png" class="header__img" alt="">
+                </picture>
+<!--END для загрузки разных изображение при адаптиве-->
+                
             </div>
         </div>
     </div>
@@ -56,21 +63,21 @@
     <section class="services">
     <div class="container">
         <div class="services__items">
-            <div class="services__item">
+            <div data-aos="fade-up" class="services__item">
                 <img class="services__item-img" src="img/1.svg" alt="UI/UX Design">
                 <div class="services__description">
                     <h3 class="services__decription-title">UI/UX Design</h3>
                     <p class="services__decription-subtitle">Our design is translated into comprehensive digital environments built on latest development standards.</p>
                 </div>
             </div>
-            <div class="services__item">
+            <div data-aos="fade-down" class="services__item">
                 <img class="services__item-img" src="img/2.svg" alt="Development">
                 <div class="services__description">
                     <h3 class="services__decription-title">Development</h3>
                     <p class="services__decription-subtitle">Our design is translated into comprehensive digital environments built on latest development standards.</p>
                 </div>
             </div>
-            <div class="services__item">
+            <div data-aos="fade-up" class="services__item">
                 <img  class="services__item-img" src="img/3.svg" alt="software testing">
                 <div class="services__description">
                     <h3 class="services__decription-title">software testing</h3>
@@ -85,19 +92,19 @@
         <div class="portfolio__title">
             <h2 class="title">portfolio</h2>
         </div>
-        <div class="portfolio__project">
+        <div data-aos="flip-left" class="portfolio__project">
             <img src="img/11.jpg" alt="Online fashion store" class="project__img">
             <h3 class="project__title">
                 <a class="project__title-link" href="#!">Online fashion store - Homepage</a>
             </h3>
         </div>
-        <div class="portfolio__project">
+        <div data-aos="flip-right" class="portfolio__project">
             <img src="img/22.jpg" alt="Reebok Store - Concept" class="project__img">
             <h3 class="project__title">
                 <a class="project__title-link" href="#!">Reebok Store - Concept</a>
             </h3>
         </div>
-        <div class="portfolio__project">
+        <div data-aos="flip-left" class="portfolio__project">
             <img src="img/33.jpg" alt="Braun Landing Page - Concept" class="project__img">
             <h3 class="project__title">
                 <a class="project__title-link" href="#!">Braun Landing Page - Concept</a>
@@ -136,6 +143,7 @@
     </div>
 </footer>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="js/app.min.js"></script>
 </body>
 </html>

@@ -13,3 +13,8 @@ navBtn.onclick = () => {
         navBtnImg.src ='../img/X.svg'; // toggle возвращает если false
     }
 }
+
+AOS.init({
+    disable: 'phone', // не работает на мобильных устройствах
+    once: true
+});

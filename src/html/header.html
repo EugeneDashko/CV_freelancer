@@ -28,14 +28,20 @@
             </nav>
         </div>
         <div class="header__intro">
-            <div class="header__article">
-                <h1 class="header__title">Kelvin Kramer <br> Designer & Developer</h1>
+            <div  data-aos="fade-up-right" class="header__article">
+                <h1 class="header__title">Kelvin Kramer <br> <span>Designer & Developer</span></h1>
                 <p class="header__subtitle">
                     I'm a portrait, fashion and lifestyle photographer living In New York City. During my thirteen year tenure here.
                 </p>
             </div>
             <div class="header__banner">
-                <img src="@img/hero.png" class="header__img" alt="">
+<!--START для загрузки разных изображение при адаптиве-->
+                <picture>
+                    <source media="(max-width: 799px)" srcset="@img/hero-mobile.png">
+                    <img data-aos="fade-down" src="@img/hero.png" class="header__img" alt="">
+                </picture>
+<!--END для загрузки разных изображение при адаптиве-->
+                
             </div>
         </div>
     </div>
